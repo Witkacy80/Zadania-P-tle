@@ -22,3 +22,35 @@ namespace Waarehouse
         }
     }
 }
+
+
+//Zadanie 5
+
+using System;
+
+namespace Waarehouse
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double a = 1;
+            
+
+            do
+            {
+
+
+                double c = Math.Pow(a, 3.0);        //Lub: double c = a*a*a;
+                Console.WriteLine(c);
+                a++;
+
+            }
+
+
+            while (a >=1 && a <=20);
+
+
+        }
+    }
+}

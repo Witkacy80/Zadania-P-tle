@@ -1,0 +1,24 @@
+//Zadanie 2
+
+using System;
+
+namespace Waarehouse
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+
+            do
+            {
+                Console.WriteLine(a);
+                a+=2;    
+                
+                
+            }
+            while (a>=0 && a <=1000);
+
+        }
+    }
+}
